@@ -1,0 +1,23 @@
+html, body {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2rem;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif
+}
+
+h1, h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: -1%;
+}
+
+p {
+  text-indent: 2rem;
+}
+
+#generator {
+  border: 1px solid grey;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
