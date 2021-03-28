@@ -136,7 +136,7 @@ function uuidv4() {
     );
 }
 
-function start() {
+async function start() {
     let fin = document.getElementById("tokenize");
     fin.addEventListener("change", handleFiles, false);
 }
@@ -150,6 +150,7 @@ async function handleFiles() {
     let hash = sha256(uuidv4() + btoa(dta));
     document.getElementById("namelist").innerText = nms;
     document.getElementById("output").innerText = hash;
+    navigator.clipboard.writeText(nms + "\n" + hash);
 }
 
 start();
