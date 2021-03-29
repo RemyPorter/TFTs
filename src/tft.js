@@ -148,8 +148,7 @@ async function handleFiles() {
     dta = stringFromUTF8Array(dta);
     nms += `${this.files[0].name}`;
     let hash = sha256(uuidv4() + btoa(dta));
-    document.getElementById("namelist").innerText = nms;
-    document.getElementById("output").innerText = hash;
+    document.getElementById("output").innerText = nms + ";" +hash;
     navigator.clipboard.writeText(nms + "\n" + hash);
 }
 

@@ -22,3 +22,8 @@ p {
   padding-right: 1rem;
   padding-bottom: 2rem;
 }
+
+#output {
+  padding-top: 0.5rem;
+  width: 100%;
+}
