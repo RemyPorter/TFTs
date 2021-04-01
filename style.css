@@ -10,6 +10,7 @@ html, body {
 h1, h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-left: -1%;
+  font-weight: 500;
 }
 
 p {
